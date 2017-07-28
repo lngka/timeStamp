@@ -5,7 +5,6 @@ body {
 	font-size: 16px;
 	color: #222;
 	background-color: #ECF0F1;
-	text-align: center;
 }
 
 .container {
@@ -13,23 +12,24 @@ body {
 	margin-top: 40px;
 }
 
-.footer {
-	margin-top: 60px;
+h1 {
+  text-align: center;
 }
 
-ol {
-	list-style-position: inside;
-}
-ul {
-	list-style-type: none;
+h3 {
+  display: inline-block;
 }
 
-a {
-	color: #2574A9;
+span{
+  font-size: 1em;
 }
-/****** Logo Div Styling ******/
 
-img {
-	margin: 20px auto 0 auto;
-	display: block;
+.wrapper {
+  width: 50%;
+  margin: auto;
+}
+.link {
+  display: inline-block;
+  color: #D32F2F;
+  background-color: #B0BEC5;
 }
